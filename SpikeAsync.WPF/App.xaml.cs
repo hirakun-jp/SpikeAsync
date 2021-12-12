@@ -17,7 +17,7 @@ namespace SpikeAsync.WPF
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-
+            
         }
     }
 }
