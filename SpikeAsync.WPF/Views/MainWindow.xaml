@@ -5,6 +5,15 @@
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="350" Width="525">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion"  />
+        <ContentControl prism:RegionManager.RegionName="ContentRegion" />
+        <StackPanel>
+            <Button Content="Run"
+                Command="{Binding RunCommand}" />
+            <Button Content="Cancel"
+                Command="{Binding CancelCommand}" />
+            <TextBlock Text="{Binding Result.Value}"
+                       FontSize="100"/>
+        </StackPanel>
+
     </Grid>
 </Window>
