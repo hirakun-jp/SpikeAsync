@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SpikeAsync.WPF.Properties
+namespace SpikePrism.WPF.Properties
 {
 
 

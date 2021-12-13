@@ -1,32 +1,25 @@
 ﻿using Prism.Mvvm;
 using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
-using SpikeAsync.Application;
+using SpikePrism.Application;
+using SpikePrism.Domain;
 using System;
 
-namespace SpikeAsync.WPF.ViewModels
+namespace SpikePrism.WPF.ViewModels
 {
-    public class MainWindowViewModel : BindableBase
+    public class CalculatorViewModel : BindableBase
     {
-        private string _title = "Prism Application";
         private readonly CalculatorApplicationService _calculatorApplicationService;
 
         public ReactiveCommand RunCommand { get; }
         public ReactiveCommand CancelCommand { get; }
-
         public ReactiveProperty<int> Result { get; }
 
-        public string Title
+        public CalculatorViewModel(CalculatorApplicationService calculatorApplicationService)
         {
-            get { return _title; }
-            set { SetProperty(ref _title, value); }
-        }
+            _calculatorApplicationService = calculatorApplicationService;
 
-        public MainWindowViewModel()
-        {
-            _calculatorApplicationService = new CalculatorApplicationService();
-
-            var calculator = _calculatorApplicationService.NewCalculator();
+            Calculator calculator = _calculatorApplicationService.NewCalculator();
             RunCommand = new ReactiveCommand().WithSubscribe(() => _calculatorApplicationService.Run(calculator));
             CancelCommand = new ReactiveCommand().WithSubscribe(() => _calculatorApplicationService.Cancel(calculator));
 

@@ -100,11 +100,11 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpikeAsync.Application\SpikeAsync.Application.csproj">
+    <ProjectReference Include="..\SpikePrism.Application\SpikePrism.Application.csproj">
       <Project>{5962f4f8-0944-4d7d-91ba-d2ba2b16fff7}</Project>
       <Name>SpikeAsync.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SpikeAsync.Domain\SpikeAsync.Domain.csproj">
+    <ProjectReference Include="..\SpikePrism.Domain\SpikePrism.Domain.csproj">
       <Project>{38353656-4260-498F-A019-4712D1CF2F8D}</Project>
       <Name>SpikeAsync.Domain</Name>
     </ProjectReference>
