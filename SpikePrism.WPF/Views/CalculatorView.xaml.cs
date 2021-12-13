@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace SpikeAsync.WPF.Views
+namespace SpikePrism.WPF.Views
 {
     /// <summary>
     /// Interaction logic for CalculatorView

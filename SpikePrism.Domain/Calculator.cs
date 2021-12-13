@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SpikeAsync.Domain
+namespace SpikePrism.Domain
 {
     public class Calculator : INotifyPropertyChanged
     {

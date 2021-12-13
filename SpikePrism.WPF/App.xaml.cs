@@ -1,9 +1,9 @@
-﻿using SpikeAsync.WPF.Views;
+﻿using SpikePrism.WPF.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 using System.Windows;
 
-namespace SpikeAsync.WPF
+namespace SpikePrism.WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

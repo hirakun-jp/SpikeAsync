@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SpikeAsync.Domain\SpikeAsync.Domain.csproj">
+    <ProjectReference Include="..\SpikePrism.Domain\SpikePrism.Domain.csproj">
       <Project>{38353656-4260-498f-a019-4712d1cf2f8d}</Project>
       <Name>SpikeAsync.Domain</Name>
     </ProjectReference>

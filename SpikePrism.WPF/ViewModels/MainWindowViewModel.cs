@@ -2,12 +2,12 @@
 using Prism.Regions;
 using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
-using SpikeAsync.Application;
-using SpikeAsync.Domain;
-using SpikeAsync.WPF.Views;
+using SpikePrism.Application;
+using SpikePrism.Domain;
+using SpikePrism.WPF.Views;
 using System;
 
-namespace SpikeAsync.WPF.ViewModels
+namespace SpikePrism.WPF.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {

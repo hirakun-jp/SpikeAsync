@@ -1,7 +1,7 @@
 ﻿using Prism.Regions;
 using System.Windows;
 
-namespace SpikeAsync.WPF.Views
+namespace SpikePrism.WPF.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

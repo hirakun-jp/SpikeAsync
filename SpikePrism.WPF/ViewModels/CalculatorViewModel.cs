@@ -1,11 +1,11 @@
 ﻿using Prism.Mvvm;
 using Reactive.Bindings;
 using Reactive.Bindings.Extensions;
-using SpikeAsync.Application;
-using SpikeAsync.Domain;
+using SpikePrism.Application;
+using SpikePrism.Domain;
 using System;
 
-namespace SpikeAsync.WPF.ViewModels
+namespace SpikePrism.WPF.ViewModels
 {
     public class CalculatorViewModel : BindableBase
     {
